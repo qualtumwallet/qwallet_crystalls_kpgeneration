@@ -1,4 +1,6 @@
-qwallet_dilithium_generation
+# qwallet_dilithium_generation
+
+```
 // CONFIG_REG (Dilithium2 / ML-DSA Parameters)
 $K$            = 4         // Matrix rows
 $L$            = 4         // Matrix columns
@@ -55,3 +57,4 @@ RETURN {
     SECRET_KEY: B58_ENCODE(FINAL_SK),
     PUBLIC_KEY: B58_ENCODE(FINAL_PK)
 }
+```
