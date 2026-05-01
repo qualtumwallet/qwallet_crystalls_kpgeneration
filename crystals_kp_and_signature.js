@@ -23,7 +23,7 @@ export function GenerateCDPair() {
 
     const pk = new Uint8Array(CryptoPublicKeyBytes);  
     const sk = new Uint8Array(CryptoSecretKeyBytes);
-    cryptoSignKeypair(pk, sk); 
+    cryptoSignKeypair(null,pk, sk); 
 
     return {
         pk:pk,
